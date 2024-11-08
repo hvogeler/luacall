@@ -35,6 +35,7 @@ function reformat (person)
     end
     if person.age >= 60 and person.age < 75 then
         interest_rate = interest_rate * 1.3
+        error("Too old person")
     end
     if person.age >=75 then
         interest_rate = .8
